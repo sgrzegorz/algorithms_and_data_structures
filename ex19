@@ -1,0 +1,141 @@
+#include <iostream>
+
+using namespace std;
+const int N=6;
+int inf = 99999;
+
+struct Node{
+    int val;
+    Node *next;
+    int w; //weight
+};
+
+struct
+
+struct vertex{
+    int dist;
+    vertex *parent;
+};
+
+vertex v[6];
+Node * t[N];
+
+void add(int vertex_n, int sasiad,int waga)
+{
+    Node *s=new Node;
+    s->w=waga;
+    s->val=sasiad;
+    s->next=NULL;
+
+    Node *q=t[vertex_n];
+
+    if(q==NULL)
+    {
+        t[vertex]=s;
+        return;
+    }
+
+
+    while(q->next!=NULL)
+    {
+        q=q->next;
+    }
+    q->next=s;
+}
+bool edge(int A, int B)
+{
+    Node *q=t[A];
+    while(q!=NULL)
+    {
+        if(q->val==B) return true;
+        q=q->next;
+    }
+    return false;
+}
+
+Node *Find(int A,int B)
+{
+    Node *q=t[A];
+    if(q==NULL) return NULL;
+    while(q->next!=NULL)
+    {
+        if(q->val==B)
+        {
+            return q;
+        }
+        q=q->next;
+    }
+    return NULL;
+}
+
+void print(){
+    for(int i=0;i<N;i++)
+    {
+        Node *q=t[i];
+        cout<<i<<"| ";
+        while(q!=NULL)
+        {
+            cout<<"("<<q->val<<",w: "<<q->w<<") ";;
+            q=q->next;
+        }
+        cout<<endl;
+    }
+
+}
+
+Node *krawedz(int nr)
+{
+    int a=0;
+    for(int i=0;i<N;i++)
+    {
+        Node *q=t[i];
+        while(q!=NULL)
+        {
+            if(a==nr) return q;
+            a++;
+            q=q->next;
+        }
+    }
+}
+
+int main()
+{
+    for(int i=0;i<N;i++)
+    {
+        t[i]=NULL;
+    }
+    add(0,1,5);
+    add(1,3,3);
+    add(3,5,2);
+    add(4,5,-5);
+    add(4,2,-1);
+    add(2,0,3);
+    add(2,1,-4);
+    add(5,0,9);
+    add(3,4,3);
+    add(1,4,9);
+    add(5,2,8);
+    print();
+
+    for(int i=0;i<11;i++)
+    {
+        Node *v=krawedz(i);
+        v->dist=inf;
+        v->parent=NULL;
+    }
+
+    for(int i=0;i<N;i++)
+    {
+        for(int j=0;j<11;j++)
+        {
+            Node *q=krawedz(j);
+            Node *a=Find(v);
+            Node *b=Find(u)
+        }
+    }
+
+
+
+
+
+}
