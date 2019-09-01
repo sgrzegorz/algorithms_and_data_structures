@@ -1,3 +1,0 @@
-/home/x/DEVELOPER/UNIVERSITY/algorithms_and_data_structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/x/DEVELOPER/UNIVERSITY/algorithms_and_data_structures/cmake-build-debug/CMakeFiles/untitled3.dir
-/home/x/DEVELOPER/UNIVERSITY/algorithms_and_data_structures/cmake-build-debug/CMakeFiles/edit_cache.dir

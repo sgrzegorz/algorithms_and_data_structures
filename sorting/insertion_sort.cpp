@@ -19,5 +19,5 @@ int main()
     int t[] = {5,3,6,7,7,1,0,0};
     int n =sizeof(t)/sizeof(t[0]);
     isortTab(t,n);
-    for(int i=0;i<4;i++){cout<<t[i]<<" ";}
+    for(int i=0;i<n;i++){cout<<t[i]<<" ";}
 }
