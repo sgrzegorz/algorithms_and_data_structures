@@ -123,32 +123,32 @@ untitled3/fast:
 	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/build
 .PHONY : untitled3/fast
 
-ex30.o: ex30.cpp.o
+ex32.o: ex32.c.o
 
-.PHONY : ex30.o
+.PHONY : ex32.o
 
 # target to build an object file
-ex30.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex30.cpp.o
-.PHONY : ex30.cpp.o
+ex32.c.o:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex32.c.o
+.PHONY : ex32.c.o
 
-ex30.i: ex30.cpp.i
+ex32.i: ex32.c.i
 
-.PHONY : ex30.i
+.PHONY : ex32.i
 
 # target to preprocess a source file
-ex30.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex30.cpp.i
-.PHONY : ex30.cpp.i
+ex32.c.i:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex32.c.i
+.PHONY : ex32.c.i
 
-ex30.s: ex30.cpp.s
+ex32.s: ex32.c.s
 
-.PHONY : ex30.s
+.PHONY : ex32.s
 
 # target to generate assembly for a file
-ex30.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex30.cpp.s
-.PHONY : ex30.cpp.s
+ex32.c.s:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex32.c.s
+.PHONY : ex32.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled3"
 	@echo "... edit_cache"
-	@echo "... ex30.o"
-	@echo "... ex30.i"
-	@echo "... ex30.s"
+	@echo "... ex32.o"
+	@echo "... ex32.i"
+	@echo "... ex32.s"
 .PHONY : help
 
 
