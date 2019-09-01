@@ -2,16 +2,16 @@
 int INF=999999;
 using namespace std;
 
-
-
 struct edge{
     int u;
     int v;
     int value;
     edge *next;
 };
+
+
 edge *start=NULL;
-void add(int u,int v,int value){ //DODAJ KRAWEDZ u->v O WARTOŒCI VALUE DO ZBIORU EDGE
+void add(int u,int v,int value){ //DODAJ KRAWEDZ u->v O WARTOï¿½CI VALUE DO ZBIORU EDGE
     edge *e=new edge;
     e->u=u;
     e->v=v;

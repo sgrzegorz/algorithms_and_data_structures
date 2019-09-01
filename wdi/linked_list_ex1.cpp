@@ -26,7 +26,6 @@ void wypisz(node *f)
         q=q->next;
     }
     cout<<"NULL"<<endl;
-
 }
 
 node *buduj(int t[],int n)
