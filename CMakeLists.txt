@@ -3,4 +3,4 @@ project(algorithms_and_data_structures)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled3 heapsort.cpp)
+add_executable(untitled3 insertion_sort.cpp)

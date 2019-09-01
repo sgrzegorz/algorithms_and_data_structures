@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/x/DEVELOPER/UNIVERSITY/algorithms_and_data_structures/heapsort.cpp" "/home/x/DEVELOPER/UNIVERSITY/algorithms_and_data_structures/cmake-build-debug/CMakeFiles/untitled3.dir/heapsort.cpp.o"
+  "/home/x/DEVELOPER/UNIVERSITY/algorithms_and_data_structures/ex30.cpp" "/home/x/DEVELOPER/UNIVERSITY/algorithms_and_data_structures/cmake-build-debug/CMakeFiles/untitled3.dir/ex30.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

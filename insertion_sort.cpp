@@ -16,11 +16,8 @@ void isortTab(int A[], int n) {
 
 int main()
 {
-    int t[4];
-    t[0]=1;
-    t[1]=-6;
-    t[2]=9;
-    t[3]=-12;
-    isortTab(t,4);
+    int t[] = {5,3,6,7,7,1,0,0};
+    int n =sizeof(t)/sizeof(t[0]);
+    isortTab(t,n);
     for(int i=0;i<4;i++){cout<<t[i]<<" ";}
 }

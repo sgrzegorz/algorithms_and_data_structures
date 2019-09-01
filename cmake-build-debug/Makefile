@@ -123,32 +123,32 @@ untitled3/fast:
 	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/build
 .PHONY : untitled3/fast
 
-heapsort.o: heapsort.cpp.o
+ex30.o: ex30.cpp.o
 
-.PHONY : heapsort.o
+.PHONY : ex30.o
 
 # target to build an object file
-heapsort.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/heapsort.cpp.o
-.PHONY : heapsort.cpp.o
+ex30.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex30.cpp.o
+.PHONY : ex30.cpp.o
 
-heapsort.i: heapsort.cpp.i
+ex30.i: ex30.cpp.i
 
-.PHONY : heapsort.i
+.PHONY : ex30.i
 
 # target to preprocess a source file
-heapsort.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/heapsort.cpp.i
-.PHONY : heapsort.cpp.i
+ex30.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex30.cpp.i
+.PHONY : ex30.cpp.i
 
-heapsort.s: heapsort.cpp.s
+ex30.s: ex30.cpp.s
 
-.PHONY : heapsort.s
+.PHONY : ex30.s
 
 # target to generate assembly for a file
-heapsort.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/heapsort.cpp.s
-.PHONY : heapsort.cpp.s
+ex30.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/ex30.cpp.s
+.PHONY : ex30.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled3"
 	@echo "... edit_cache"
-	@echo "... heapsort.o"
-	@echo "... heapsort.i"
-	@echo "... heapsort.s"
+	@echo "... ex30.o"
+	@echo "... ex30.i"
+	@echo "... ex30.s"
 .PHONY : help
 
 
